@@ -1,20 +1,75 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏢 Şakarlar Ambalaj & Temizlik
 
-# Run and deploy your AI Studio app
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple)
+![React](https://img.shields.io/badge/React-18-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
+![Deployment](https://img.shields.io/badge/Deployed-Vercel-black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This contains everything you need to run your app locally.
+Şakarlar Ambalaj & Temizlik firması için geliştirilmiş modern ve responsive kurumsal web sitesi.
 
-View your app in AI Studio: https://ai.studio/apps/e56501c3-049c-44d9-8d45-bfb8703b206f
+🔗 **Live Demo:** https://sakarlar-ambalaj-temizlik.vercel.app/  
+📦 **Repository:** https://github.com/sema27/sakarlar-ambalaj-temizlik  
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Proje Hakkında
 
+Bu proje, firmanın hizmetlerini dijital ortamda profesyonel ve güvenilir bir şekilde sunmak amacıyla geliştirilmiştir.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Öne çıkan özellikler:
+
+- ⚡ Modern ve hızlı arayüz
+- 📱 Tam responsive tasarım (mobil uyumlu)
+- 🎨 Kurumsal tasarım dili
+- 🧩 Component tabanlı mimari
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- React
+- TypeScript
+- CSS / Tailwind (kullanıyorsan bırakabilirsin)
+
+---
+
+## 🧑‍💻 Kurulum
+
+Projeyi yerel ortamda çalıştırmak için:
+
+# Repoyu klonla
+```bash
+git clone https://github.com/sema27/sakarlar-ambalaj-temizlik.git
+
+# Proje klasörüne gir
+```bash
+cd sakarlar-ambalaj-temizlik
+```
+
+# Bağımlılıkları yükle
+```bash
+npm install
+```
+
+# Geliştirme sunucusunu başlat
+```bash
+npm run dev
+```
+
+# Tarayıcıda
+```bash
+http://localhost:3000
+```
+ile siteyi görebilirsin.
+
+## 🎯 Proje Amaçları
+
+- Firmanın hizmetlerini dijital ortamda tanıtmak
+- Güven veren kurumsal kimlik oluşturmak
+- Müşteri iletişimini kolaylaştırmak
+- Modern ve sade kullanıcı deneyimi sunmak
+
+## 📸 Preview
+
+![Preview](./public/screenshot.png)
