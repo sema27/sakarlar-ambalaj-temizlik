@@ -71,5 +71,5 @@ ile siteyi görebilirsin.
 - Modern ve sade kullanıcı deneyimi sunmak
 
 ## 📸 Preview
+<img width="1907" height="945" alt="Ekran görüntüsü 2026-02-25 210345" src="https://github.com/user-attachments/assets/19ed6faa-5241-4f1f-88be-5995eac22d0a" />
 
-![Preview](<img width="1907" height="945" alt="Ekran görüntüsü 2026-02-25 210345" src="https://github.com/user-attachments/assets/31297f7a-f805-4e25-9438-45e4300bf95e" />)
