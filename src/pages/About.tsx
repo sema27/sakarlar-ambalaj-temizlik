@@ -74,17 +74,17 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
+      <section className="py-12 md:py-16 lg:py-20 px-4 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
         <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Rakamlarla Şakarlar</h2>
-            <p className="text-xl text-blue-100">Büyüyen başarı hikayemizin göstergeleri</p>
+          <div className="text-center mb-8 md:mb-10 lg:mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">Rakamlarla Şakarlar</h2>
+            <p className="text-base md:text-lg lg:text-xl text-blue-100">Büyüyen başarı hikayemizin göstergeleri</p>
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
             {statistics.map((stat, index) => (
               <div key={index} className="text-center">
-                <h3 className="text-5xl font-bold mb-2">{stat.value}</h3>
-                <p className="text-blue-100 text-lg font-medium">{stat.label}</p>
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-1 md:mb-2">{stat.value}</h3>
+                <p className="text-blue-100 text-sm md:text-base lg:text-lg font-medium">{stat.label}</p>
               </div>
             ))}
           </div>
