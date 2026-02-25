@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 
 export default function Home() {
   const statistics = [
-    { icon: <Package className="w-7 h-7 text-white" />, value: '300+', label: 'Marka' },
-    { icon: <ShoppingCart className="w-7 h-7 text-white" />, value: '24.000+', label: 'Ürün' },
-    { icon: <Building2 className="w-7 h-7 text-white" />, value: '1.100+', label: 'Kurumsal Müşteri' },
-    { icon: <Users className="w-7 h-7 text-white" />, value: '11.900+', label: 'Bireysel Müşteri' },
+    { icon: <Package className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 text-white" />, value: '300+', label: 'Marka' },
+    { icon: <ShoppingCart className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 text-white" />, value: '24.000+', label: 'Ürün' },
+    { icon: <Building2 className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 text-white" />, value: '1.100+', label: 'Kurumsal Müşteri' },
+    { icon: <Users className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 text-white" />, value: '11.900+', label: 'Bireysel Müşteri' },
   ];
 
   const services = [
@@ -92,9 +92,9 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-8 md:py-12 lg:py-16 bg-blue-600">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
             {statistics.map((stat, index) => (
               <motion.div
                 key={index}
@@ -103,13 +103,13 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="flex justify-center mb-3">
-                  <div className="w-14 h-14 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
+                <div className="flex justify-center mb-2 md:mb-3">
+                  <div className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                     {stat.icon}
                   </div>
                 </div>
-                <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.value}</h3>
-                <p className="text-blue-100 text-sm font-medium">{stat.label}</p>
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-1 md:mb-2">{stat.value}</h3>
+                <p className="text-blue-100 text-xs md:text-sm font-medium">{stat.label}</p>
               </motion.div>
             ))}
           </div>

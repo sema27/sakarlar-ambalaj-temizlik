@@ -19,14 +19,14 @@ export default function Header() {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white shadow-sm border-b border-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center group">
   <img
     src={logo}
     alt="Şakarlar Ambalaj & Temizlik"
-    className="h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+    className="h-20 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
   />
 </Link>
           {/* Desktop Navigation */}
