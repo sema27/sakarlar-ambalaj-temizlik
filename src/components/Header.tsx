@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Facebook, Instagram, Youtube, Linkedin, Menu, X } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import logo from '../assets/logo.png';
@@ -54,9 +54,6 @@ export default function Header() {
               <a href="https://www.instagram.com/sakarlarambalajvetemizlik/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://youtube.comhttps://www.facebook.com/sakarlar.com.tr/videos/herkese-iyi-haftalar-dilerizserdivan-%C5%9Fubemize-daha-%C3%B6nce-gelmediyseniz-haydi-%C5%9F%C3%B6yl/333253794984110/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
-                <Youtube className="w-4 h-4" />
-              </a>
               <a href="https://www.linkedin.com/company/%C5%9Fakarlar-ambalaj-ve-temi%CC%87zli%CC%87k-%C3%BCr%C3%BCnleri%CC%87/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
                 <Linkedin className="w-4 h-4" />
               </a>
@@ -97,10 +94,15 @@ export default function Header() {
                 </Link>
               ))}
               <div className="flex items-center space-x-4 pt-4 px-4">
-                <Facebook className="w-5 h-5 text-gray-400" />
-                <Instagram className="w-5 h-5 text-gray-400" />
-                <Youtube className="w-5 h-5 text-gray-400" />
-                <Linkedin className="w-5 h-5 text-gray-400" />
+                <a href="https://www.facebook.com/sakarlar.ambalajtemizlik/?locale=tr_TR" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
+                  <Facebook className="w-5 h-5" />
+                </a>
+                <a href="https://www.instagram.com/sakarlarambalajvetemizlik/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
+                  <Instagram className="w-5 h-5" />
+                </a>
+                <a href="https://www.linkedin.com/company/%C5%9Fakarlar-ambalaj-ve-temi%CC%87zli%CC%87k-%C3%BCr%C3%BCnleri%CC%87/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-200">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </motion.div>

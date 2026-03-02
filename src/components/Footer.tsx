@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -52,9 +52,6 @@ export default function Footer() {
               </a>
               <a href="https://www.instagram.com/sakarlarambalajvetemizlik/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 hover:scale-110">
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a href="https://youtube.comhttps://www.facebook.com/sakarlar.com.tr/videos/herkese-iyi-haftalar-dilerizserdivan-%C5%9Fubemize-daha-%C3%B6nce-gelmediyseniz-haydi-%C5%9F%C3%B6yl/333253794984110/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 hover:scale-110">
-                <Youtube className="w-5 h-5" />
               </a>
               <a href="https://www.linkedin.com/company/%C5%9Fakarlar-ambalaj-ve-temi%CC%87zli%CC%87k-%C3%BCr%C3%BCnleri%CC%87/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 hover:scale-110">
                 <Linkedin className="w-5 h-5" />
